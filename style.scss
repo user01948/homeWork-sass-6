@@ -509,5 +509,10 @@ nav
     .lite
     {
         flex-direction: column;
+
+        .btnl
+        {
+            flex-direction: column;
+        }
     }
 }

@@ -359,4 +359,7 @@ nav .buttons button {
   .lite {
     flex-direction: column;
   }
+  .lite .btnl {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
