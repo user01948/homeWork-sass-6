@@ -142,6 +142,59 @@ nav .buttons button {
   width: 250px;
 }
 
+.voyma {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+.voyma .voyma_header {
+  display: flex;
+  justify-content: space-between;
+}
+.voyma .voyma_header button {
+  padding: 20px 35px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #3f7f22, #4ecb3a);
+  color: #ffffff;
+}
+.voyma .voyma_header h1 {
+  font-weight: 400;
+}
+.voyma .voyma_images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.voyma .voyma_images .img1 {
+  width: 320px;
+}
+.voyma .voyma_images .img2 {
+  width: 520px;
+}
+.voyma .voyma_images .img3 {
+  width: 320px;
+}
+.voyma .footer_voyma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  row-gap: 10px;
+}
+.voyma .footer_voyma h3 {
+  color: #5E4520;
+}
+.voyma .footer_voyma button {
+  display: none;
+  padding: 20px 35px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #3f7f22, #4ecb3a);
+  color: #ffffff;
+}
+
 @media (max-width: 530px) {
   nav {
     padding: 20px;
@@ -207,5 +260,23 @@ nav .buttons button {
   .info .flexbox_info .minicards {
     width: 90%;
     gap: 40px;
+  }
+  .voyma {
+    padding: 20px;
+  }
+  .voyma .voyma_header button {
+    display: none;
+  }
+  .voyma .voyma_images .img1 {
+    display: none;
+  }
+  .voyma .voyma_images .img2 {
+    width: 90%;
+  }
+  .voyma .voyma_images .img3 {
+    display: none;
+  }
+  .voyma .footer_voyma button {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */

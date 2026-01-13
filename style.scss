@@ -190,6 +190,68 @@ nav
     }
 }
 
+.voyma
+{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+
+    .voyma_header
+    {
+        display: flex;
+        justify-content: space-between;
+
+        button
+        {
+            @include btn
+        }
+        h1
+        {
+            font-weight: 400;
+        }
+    }
+
+    .voyma_images
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+
+        .img1
+        {
+            width: 320px;
+        }
+        .img2
+        {
+            width: 520px;
+        }
+        .img3
+        {
+            width: 320px;
+        }
+    }
+
+    .footer_voyma
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        row-gap: 10px;
+
+        h3
+        {
+            color: #5E4520;
+        }
+
+        button
+        {
+            display: none;
+            @include btn
+        }
+    }
+}
 
 
 
@@ -303,6 +365,43 @@ nav
             {
                 width: 90%;
                 gap: 40px;
+            }
+        }
+    }
+
+    .voyma
+    {
+        padding: 20px;
+
+        .voyma_header
+        {
+            button
+            {
+                display: none;
+            }
+        }
+
+        .voyma_images
+        {
+            .img1
+            {
+                display: none;
+            }
+            .img2
+            {
+                width: 90%;
+            }
+            .img3
+            {
+                display: none;
+            }
+        }
+
+        .footer_voyma
+        {
+            button
+            {
+                display: block;
             }
         }
     }
