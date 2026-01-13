@@ -75,6 +75,35 @@ nav .buttons button {
   font-size: 60px;
 }
 
+.kampir2 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.kampir2 .listleft {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.kampir2 .listleft .p1 {
+  width: 605px;
+  font-size: 48px;
+  font-weight: 400px;
+}
+.kampir2 .listleft .p2 {
+  width: 320px;
+  color: gray;
+  font-weight: 400;
+}
+.kampir2 .im1 {
+  width: 60%;
+}
+.kampir2 .im2 {
+  display: none;
+}
+
 @media (max-width: 530px) {
   nav {
     padding: 20px;
@@ -110,5 +139,22 @@ nav .buttons button {
     flex-direction: column;
     align-items: start;
     row-gap: 50px;
+  }
+  .kampir2 {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .kampir2 .listleft {
+    padding: 20px;
+  }
+  .kampir2 .listleft .p1 {
+    width: 335px;
+    font-size: 24px;
+  }
+  .kampir2 .im1 {
+    display: none;
+  }
+  .kampir2 .im2 {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
