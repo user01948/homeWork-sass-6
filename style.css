@@ -269,6 +269,35 @@ nav .buttons button {
   justify-content: space-between;
 }
 
+.profils {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+.profils .flexprofils {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.profils .flexprofils .profil {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  text-align: center;
+}
+.profils .flexprofils .profil2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  text-align: center;
+  margin-top: -150px;
+}
+.profils .uuu {
+  display: block;
+  margin: auto;
+}
+
 @media (max-width: 530px) {
   nav {
     padding: 20px;
@@ -361,5 +390,14 @@ nav .buttons button {
   }
   .lite .btnl {
     flex-direction: column;
+  }
+  .profils .flexprofils {
+    margin-top: 30px;
+  }
+  .profils .flexprofils .profil {
+    display: none;
+  }
+  .profils .flexprofils .profil2 {
+    margin: auto;
   }
 }/*# sourceMappingURL=style.css.map */

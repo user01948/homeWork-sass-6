@@ -349,6 +349,43 @@ nav
     }
 }
 
+.profils
+{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+
+    .flexprofils
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 150px;
+
+        .profil
+        {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            text-align: center;
+        }
+        .profil2
+        {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            text-align: center;
+            margin-top: -150px;
+        }
+
+    }
+    .uuu
+    {
+        display: block;
+        margin: auto;
+    }
+}
+
 
 
 
@@ -513,6 +550,23 @@ nav
         .btnl
         {
             flex-direction: column;
+        }
+    }
+
+    .profils
+    {
+        .flexprofils
+        {
+            margin-top: 30px;
+            .profil
+            {
+                display: none;
+            }
+
+            .profil2
+            {
+                margin: auto;
+            }
         }
     }
 }
