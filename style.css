@@ -195,6 +195,13 @@ nav .buttons button {
   color: #ffffff;
 }
 
+.video {
+  max-width: 1200px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+
 @media (max-width: 530px) {
   nav {
     padding: 20px;
@@ -278,5 +285,8 @@ nav .buttons button {
   }
   .voyma .footer_voyma button {
     display: block;
+  }
+  .video {
+    width: 90%;
   }
 }/*# sourceMappingURL=style.css.map */

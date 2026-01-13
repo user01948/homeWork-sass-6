@@ -253,6 +253,14 @@ nav
     }
 }
 
+.video
+{
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+
 
 
 
@@ -404,5 +412,10 @@ nav
                 display: block;
             }
         }
+    }
+
+    .video
+    {
+        width: 90%;
     }
 }
