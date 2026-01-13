@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px;
@@ -33,6 +34,47 @@ nav .buttons button {
   color: #ffffff;
 }
 
+.kampir {
+  max-width: 1400px;
+  margin: auto;
+  height: 751px;
+  background-image: url(./Слой\ 2\ 1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 70px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kampir .listkampir {
+  margin-top: 100px;
+  width: 80%;
+  height: 515px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.kampir .listkampir .listbottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.kampir .listkampir .listbottom div {
+  display: flex;
+  gap: 10px;
+}
+.kampir .listkampir .listtop {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.kampir .listkampir .listtop .span {
+  font-size: 60px;
+}
+
 @media (max-width: 530px) {
   nav {
     padding: 20px;
@@ -50,5 +92,23 @@ nav .buttons button {
   }
   nav img {
     width: 250px;
+  }
+  .kampir {
+    width: 90%;
+    padding: 0px;
+  }
+  .kampir .listkampir .listtop {
+    width: 100%;
+  }
+  .kampir .listkampir .listtop .span {
+    font-size: 20px;
+  }
+  .kampir .listkampir .listtop h1 {
+    font-size: 16px;
+  }
+  .kampir .listkampir .listbottom {
+    flex-direction: column;
+    align-items: start;
+    row-gap: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
