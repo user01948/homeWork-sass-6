@@ -104,6 +104,44 @@ nav .buttons button {
   display: none;
 }
 
+.info {
+  max-width: 1300px;
+  margin: auto;
+}
+.info h1 {
+  text-align: center;
+  font-weight: 400;
+  width: 90%;
+}
+.info .flexbox_info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 50px;
+}
+.info .flexbox_info img {
+  width: 450px;
+}
+.info .flexbox_info .minicards {
+  width: 899px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.info .flexbox_info .minicards .card_mini {
+  width: 360px;
+  display: flex;
+  gap: 10px;
+}
+.info .flexbox_info .minicards .card_mini .cardmini_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.info .flexbox_info .minicards .card_mini .cardmini_list p {
+  color: gray;
+  width: 250px;
+}
+
 @media (max-width: 530px) {
   nav {
     padding: 20px;
@@ -156,5 +194,18 @@ nav .buttons button {
   }
   .kampir2 .im2 {
     display: block;
+  }
+  .info h1 {
+    text-align: start;
+    padding: 20px;
+    font-size: 24px;
+  }
+  .info .flexbox_info {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .info .flexbox_info .minicards {
+    width: 90%;
+    gap: 40px;
   }
 }/*# sourceMappingURL=style.css.map */

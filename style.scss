@@ -137,6 +137,59 @@ nav
     }
 }
 
+.info
+{
+    max-width: 1300px;
+    margin: auto;
+
+    h1
+    {
+        text-align: center;
+        font-weight: 400;
+        width: 90%;
+    }
+
+    .flexbox_info
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        gap: 50px;
+
+        img
+        {
+            width: 450px;
+        }
+
+        .minicards
+        {
+            width: 899px;
+            display: flex;
+            flex-wrap: wrap;
+
+            .card_mini
+            {
+                width: 360px;
+                display: flex;
+                gap: 10px;
+
+                .cardmini_list
+                {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+
+                    p
+                    {
+                        color: gray;
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 
 
@@ -230,6 +283,27 @@ nav
         .im2
         {
             display: block;
+        }
+    }
+
+    .info
+    {
+        h1
+        {
+            text-align: start;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .flexbox_info
+        {
+            flex-direction: column;
+            padding: 20px;
+
+            .minicards
+            {
+                width: 90%;
+                gap: 40px;
+            }
         }
     }
 }
