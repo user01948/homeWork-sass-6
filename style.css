@@ -367,6 +367,37 @@ nav .buttons button {
   z-index: -1;
 }
 
+.kaa {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #FBFCFB;
+}
+.kaa .footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.kaa .logoo {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.kaa .listfoot {
+  display: flex;
+  gap: 50px;
+}
+.kaa .ff2 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
 @media (max-width: 530px) {
   nav {
     padding: 20px;
@@ -429,6 +460,9 @@ nav .buttons button {
     flex-direction: column;
     padding: 20px;
   }
+  .info .flexbox_info img {
+    width: 90%;
+  }
   .info .flexbox_info .minicards {
     width: 90%;
     gap: 40px;
@@ -470,6 +504,7 @@ nav .buttons button {
     margin: auto;
   }
   .bg_imgform {
+    padding: 20px;
     height: 900px;
   }
   .bg_imgform .Plant {
@@ -481,9 +516,28 @@ nav .buttons button {
   .bg_imgform .inputdiv .fx {
     flex-direction: column;
     align-items: center;
-    padding: 18px;
+    padding: 10px;
   }
   .bg_imgform .inputdiv .fx .inputdiv_list {
-    padding-top: 50px;
+    margin-top: 50px;
+  }
+  .footer {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .footer .logoo {
+    font-size: 10px;
+  }
+  .footer .logoo img {
+    width: 100px;
+  }
+  .footer .listfoot {
+    flex-direction: column;
+    align-items: start;
+  }
+  .ff2 {
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

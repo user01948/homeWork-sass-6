@@ -473,6 +473,46 @@ nav
     }
 }
 
+.kaa
+{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #FBFCFB;
+
+    .footer
+    {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px;
+    }
+
+    .logoo
+    {
+        display: flex;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .listfoot
+    {
+        display: flex;
+        gap: 50px;
+    }
+
+    .ff2
+    {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+}
+
 
 
 
@@ -580,6 +620,11 @@ nav
             flex-direction: column;
             padding: 20px;
 
+            img
+            {
+                width: 90%;
+            }
+
             .minicards
             {
                 width: 90%;
@@ -659,6 +704,7 @@ nav
 
     .bg_imgform
     {
+        padding: 20px;
         height: 900px;
         .Plant
         {
@@ -673,13 +719,40 @@ nav
             {
                 flex-direction: column;
                 align-items: center;
-                padding: 18px;
+                padding: 10px;
 
                 .inputdiv_list
                 {
-                    padding-top: 50px;
+                    margin-top: 50px;
                 }
             }
         }
+    }
+
+    .footer
+    {
+        flex-direction: column;
+        row-gap: 30px;
+
+        .logoo
+        {
+            font-size: 10px;
+            img
+            {
+                width: 100px;
+            }
+        }
+        .listfoot
+        {
+            flex-direction: column;
+            align-items: start;
+        }
+    }
+
+    .ff2
+    {
+        flex-direction: column;
+        justify-content: start;
+        padding: 20px;
     }
 }
