@@ -298,6 +298,75 @@ nav .buttons button {
   margin: auto;
 }
 
+.bg_imgform {
+  max-width: 1200px;
+  margin: auto;
+  height: 683px;
+  background-image: url(./Map.png);
+  border-radius: 30px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 120px;
+  padding: 40px;
+  position: relative;
+}
+.bg_imgform .inputdiv {
+  width: 60%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: 400px;
+  box-shadow: 0px 0px 20px rgb(176, 176, 176);
+}
+.bg_imgform .inputdiv .fx {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 70px 0px;
+}
+.bg_imgform .inputdiv .input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.bg_imgform .inputdiv .input div .urr {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-bottom: 20px;
+}
+.bg_imgform .inputdiv .input div .urr input {
+  padding: 20px;
+  background-color: #ededed;
+  border: none;
+  border-radius: 34px;
+}
+.bg_imgform .inputdiv .input div .urr button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #3f7f22, #4ecb3a);
+  color: #ffffff;
+}
+.bg_imgform .inputdiv .inputdiv_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.bg_imgform .inputdiv .inputdiv_list .numberss {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-bottom: 30px;
+}
+.bg_imgform .Plant {
+  position: absolute;
+  top: -420px;
+  left: -250px;
+  z-index: -1;
+}
+
 @media (max-width: 530px) {
   nav {
     padding: 20px;
@@ -399,5 +468,22 @@ nav .buttons button {
   }
   .profils .flexprofils .profil2 {
     margin: auto;
+  }
+  .bg_imgform {
+    height: 900px;
+  }
+  .bg_imgform .Plant {
+    display: none;
+  }
+  .bg_imgform .inputdiv {
+    width: 100%;
+  }
+  .bg_imgform .inputdiv .fx {
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+  }
+  .bg_imgform .inputdiv .fx .inputdiv_list {
+    padding-top: 50px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -386,6 +386,93 @@ nav
     }
 }
 
+.bg_imgform
+{
+    max-width: 1200px;
+    margin: auto;
+    height: 683px;
+    background-image: url(./Map.png);
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    padding: 40px;
+    position: relative;
+
+    .inputdiv
+    {
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        border-radius: 10px;
+        font-weight: 400px;
+        box-shadow: 0px 0px 20px rgb(176, 176, 176);
+
+        .fx
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 70px 0px;
+        }
+
+        .input
+        {
+
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            div
+            {
+                .urr
+                {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 20px;
+                    padding-bottom: 20px;
+
+                    input
+                    {
+                        padding: 20px;
+                        background-color: #ededed;
+                        border: none;
+                        border-radius: 34px;
+                    }
+
+                    button
+                    {
+                        @include btn()
+                    }
+                }
+            }
+        }
+
+        .inputdiv_list
+        {
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+
+            .numberss
+            {
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+    .Plant
+    {
+        position: absolute;
+        top: -420px;
+        left: -250px;
+        z-index: -1;
+    }
+}
+
 
 
 
@@ -566,6 +653,32 @@ nav
             .profil2
             {
                 margin: auto;
+            }
+        }
+    }
+
+    .bg_imgform
+    {
+        height: 900px;
+        .Plant
+        {
+            display: none;
+        }
+
+        .inputdiv
+        {
+            width: 100%;
+
+            .fx
+            {
+                flex-direction: column;
+                align-items: center;
+                padding: 18px;
+
+                .inputdiv_list
+                {
+                    padding-top: 50px;
+                }
             }
         }
     }
